@@ -1,0 +1,706 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left:200px ;
+    padding: 20;
+    padding-top: 10px;
+
+}
+header .nav{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right : 40px; 
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none; 
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+
+}
+#checkkk{
+  display: none;
+}
+.section-1{
+    background-color:#f9f9ff ;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: c;
+    align-items: center;
+    margin-top: 75px;
+}
+.half-1, .half-2{
+    width: 50%;
+}
+.half-1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half-2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.half-2 img{
+    max-width: 600%;
+    height: auto;
+}
+.half-1 h3{
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.half-1 h1{
+    font-size: 50px;
+}
+.half-1 p{
+    color:rgb(80, 77, 77);
+}
+.half-1 input{
+    padding: 8px 20px;
+    background-color:#e90c85 ;
+    outline: none;
+    color: white;
+    border: 1px solid #f81391;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.half-1 input:hover{
+    box-shadow: 5px 10px 30px rgba(121, 7, 92, 0.5);
+    transition: all 0.5 ease-in 0.1;
+    outline: none;
+    
+}
+.all-buttom{
+    background-image:linear-gradient(45deg,  lightsalmon, tomato) ;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700px;
+    border: none;
+}
+.all-buttom{
+    border-radius: 10px;
+}
+.eori{
+    text-decoration: none;
+}
+
+.section-2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section-2 img{
+    max-width: 90%;
+    height: auto;
+}
+.section-2 .img-2{
+    padding-left:1px ;
+
+}
+.text-2 h3{
+    font-weight: normal;
+    clear: rgba(0,0,0 0.7);
+    font-size: 18px;
+}
+.text-2{
+    font-size:40px;
+    font-weight: bold;
+
+}
+.text-2 p{
+    font-size: 17px;
+    color:rgba(0,0,0,0.6) ;
+    width: 80%;
+}
+.text-2 input{
+    font-size: 15px;
+    padding: 12px 20px;
+    outline: none;
+    color: white;
+    background-color: #47cc95;
+    border: none;
+    border-radius: 7px;
+
+}
+.text-2 input:hover{
+    box-shadow: 5px 10px 30px rgba(20, 14, 99, 0.5);
+    transition: all 0.5 ease-in 0.1;
+    outline: none;
+}
+.section-3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.first-text h1{
+    font-size: 40px;
+    line-height: 10px;
+
+}
+.first-text p{
+    width: 665px;
+    color: rgba(0,0,0,0.6);
+    margin: 0 auto;
+}
+.servic{
+    width: 80%;
+    margin: auto;
+    padding-top: 45px;
+
+
+}
+.ser-1, .ser-2{
+    width: 100%;
+    overflow: hidden;
+
+}
+.ser-2{
+    padding-top: 30px;
+
+}
+.ser-1 div, .ser-2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.servic p{
+    color: rgba(0,0,0,0.6);
+}
+.ser-1 div:hover{
+    background-color: #8293ff;
+    color: white;
+}
+.ser-1 div:hover i{
+    color: white;
+}
+.ser-1 div:hover h1{
+    color: white;
+}
+.ser-1 div:hover p{
+    color: white;
+}
+.ser-2 div:hover{
+    background-color: #8293ff;
+}
+.ser-2 div:hover i{
+    color: white;
+}
+.ser-2 div:hover h1{
+    color: white;
+}
+.ser-2 div:hover p{
+    color: white;
+}
+
+
+
+.section-4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+}
+.section-4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top:100px ;
+    left: 160px;
+}
+.section-4 h1{
+    font-size: 50px;
+    line-height: 0px;
+}
+.section-4 h1,p{
+    text-align: center;
+    color: white;
+}
+
+
+.section-5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section-5 .text-3{
+    text-align: center;
+    color: black;
+}
+.section-5 .text-3 h1{
+    font-size: 40px;
+    color:rgba(0,0,0,0.9)
+}
+.section-5 .text-3 p{
+    color: rgba(78,78,78,0.7);
+    padding: 40px 0;
+}
+
+
+.section-5 .imggg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.section-5 .imggg div{
+    width:310px ;
+    height: 290px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.section-5 .imggg h1{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+
+}
+.section-5 .imggg p{
+    color: rgba(0,0,0,0.7);
+    line-height: 0;
+
+}
+.section-5 .imggg img{
+    border-radius: 10px;
+    border: 7px double;
+}
+.section-5 figure{
+    background: liner-gradient(40deg, #7f97ff 40%, #62bdfc 100%);
+    width: 310;
+    height: 290;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section-5 figure:hover img{
+    opacity: .3;
+    transition: all .3s ease-in-out;
+}
+
+.section-6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.section-6 .text-4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section-6 .text-4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section-6 .text-4 p{
+    color: rgba(0,0,0, 0.7);
+    
+}
+.section-6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+.section-6 .card-1{
+    width: 300px;
+    height: 650px;
+    background-color: rgb(249, 249,255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+.section-6 .card-1 p{
+    color: black;
+}
+.section-6 .card-1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+
+}
+.section-6 .card-2{
+    width: 300px;
+    height: 650px;
+    background-color: rgb(249, 249,255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+.section-6 .card-2 p{
+    color: black;
+}
+.section-6 .card-2 h1{
+    font-size: 50px;
+    padding-top: 8px;
+
+}
+.section-6 .card-3{
+    width: 300px;
+    height: 650px;
+    background-color: rgb(249, 249,255);
+    text-align: center;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+.section-6 .card-3 p{
+    color: black;
+}
+.section-6 .card-3 h1{
+    font-size: 50px;
+    padding-top: 8px;
+
+}
+.section-6 .card input{
+    outline: none;
+    background-color:#8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.section-6 .card-1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.section-6 .card-1:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+.section-6 .card-2:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.section-6 .card-2:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+.section-6 .card-3:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0, 0.5);
+}
+.section-6 .card-3:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+
+
+
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+footer .foot .foot-1 p{
+      color: gray;
+}
+footer .foot .foot-1 h3{
+    text-align: center;
+}
+footer .foot .foot-1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10 150px 10px 10px;
+
+}
+footer .foot .foot-1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    padding: 10 150px 10px 10px;
+}
+footer .foot .foot-1 i{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 2px 5px;
+
+}
+footer .foot .foot-1 i:hover{
+    color: #f00c0c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    header {
+        width: 100%;
+        height: auto;
+        
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #checkkk:checked ~ ul{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+}
+@media (max-width:768px) {
+    .section-1{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .half-1{
+        margin: auto;
+        padding: 0;
+    }
+    .half-1 h1{
+        font-size: 30px;
+    }
+    .half-2 img{
+        margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+    .section-2{
+        display: block;
+        width: 100%;
+        height: 100hv;
+        top: 150px;
+        position: relative;
+
+    }
+    .section-2 .img-2 img{
+      
+        right: 50px;
+        
+    }
+    .section-2 div{
+        width: 100%;
+    }
+    .text-2 {
+        position: relative;
+        left: 15px;
+        text-align: center  !important;
+        
+    }
+    .text-2 h3{
+        font-size: 12px;
+        color: rgba(0,0,0, 0.8);
+    }
+    .text-2 h1{
+        font-size: 30px;
+        color: rgba(0,0,0, 0.9);
+    }
+    .text-2 p{
+        font-size: 15px;
+        color: rgba(0,0,0, 0.9);
+        margin-left: 50px !important;
+    }
+    .section-3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 400px;
+    }
+    .first-text > h1{
+        font-size: 30px;
+        color: rgba(0,0,0, 0.9);
+    }
+    .first-text p{
+        width: 70%;
+
+    }
+    .ser-1 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .ser-2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .section-4{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 500px;
+    }
+    .section-4 div{
+        clear: left;
+    }
+    .section-5{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 500px;
+    }
+    .section-6{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 500px;
+    }
+    .section-6 .text-4 h1{
+        font-size:35px ;
+    }
+    .section-6 .text-4 p{
+        width: 80%;
+        margin: auto;
+    }
+    .section-6 .card{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        left: 90px;
+    }
+    footer{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 120em;
+    }
+    .card-1, .card-2, .card-3{
+        margin-top: 50px;
+
+    }
+    footer .foot{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+   
+    
+
+    
+}
